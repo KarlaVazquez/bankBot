@@ -57,13 +57,55 @@ h6 {
 }
 
 
-body {
+h2 {
 font-family: 'Comfortaa', cursive;
 font-size: 100px;
-font-weight: 150l
+font-weight: 150;
 
 }
 
 
+body{
+  margin-bottom: : 100px;
+
+  margin: 0;
+}
+.block{
+	height: 200px;
+	width: 100%;
+	position: relative;
+	background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+}
+.block:after{
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: inherit;
+	z-index: -1;
+	bottom: 0;
+	transform-origin: left;
+	transform: skewY(-7deg);
+}
+	.div{
+		height: 200px;
+		width: 100%;
+		position: relative;
+		background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	}
+	.div:after{
+		content: '';
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background: inherit;
+		z-index: -1;
+		bottom: 0;
+		transform-origin: right;
+		transform: skewY(-7deg);
+
+
+
+}}
 
 }
