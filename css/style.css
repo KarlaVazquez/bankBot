@@ -84,6 +84,8 @@ font-weight: 150;
 
 
 h4 {
+padding-top: -10px;
+margin: 1cm;
 font-family: 'Comfortaa', cursive;
 font-size: 24px;
 font-weight: 150;
@@ -93,7 +95,7 @@ font-weight: 150;
 
 p {
 font-family: 'Comfortaa', cursive;
-font-size: 22px;
+font-size: 25px;
 font-weight: 150;
 padding-bottom: 60px;
 }
