@@ -1,6 +1,6 @@
 body {
 	width: 100wh;
-	height:2000px;
+	height:100%;
 	color: #fff;
 	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 	background-size: 400% 400%;
@@ -8,6 +8,7 @@ body {
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
 }
+
 
 @-webkit-keyframes Gradient {
 	0% {
@@ -48,10 +49,8 @@ body {
 
 
 
-image {
 
-	float:left;
-}
+
 
 h1,
 h6 {
@@ -75,8 +74,9 @@ padding-bottom: 100px;
 }
 
 h3 {
+padding-top: 50px;
 font-family: 'Comfortaa', cursive;
-font-size: 70px;
+font-size: 100px;
 font-weight: 150;
 
 }
@@ -93,12 +93,10 @@ font-weight: 150;
 
 p {
 font-family: 'Comfortaa', cursive;
-font-size: 25px;
+font-size: 22px;
 font-weight: 150;
-
+padding-bottom: 60px;
 }
-
-
 
 
 body{
