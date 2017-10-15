@@ -1,6 +1,6 @@
 body {
 	width: 100wh;
-	height: 90vh;
+	height:2000px;
 	color: #fff;
 	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 	background-size: 400% 400%;
@@ -82,15 +82,21 @@ font-weight: 150;
 }
 
 
+
 h4 {
 font-family: 'Comfortaa', cursive;
-font-size: 20px;
+font-size: 24px;
 font-weight: 150;
 
 
 }
 
+p {
+font-family: 'Comfortaa', cursive;
+font-size: 25px;
+font-weight: 150;
 
+}
 
 
 
